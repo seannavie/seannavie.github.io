@@ -7,6 +7,41 @@ selector {
 
 */
 
-p {
-    color:blue;
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    color: #333;
+}
+
+header h1,
+header nav {
+    display:inline;
+}
+
+header nav {
+    float:right;
+}
+
+
+#banner-image {
+    background-color: #ccc;
+    height: 70vh;
+}
+
+#epigraph {
+    background-color: teal;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+    font-size: 32px;
+    color: white;
 }
